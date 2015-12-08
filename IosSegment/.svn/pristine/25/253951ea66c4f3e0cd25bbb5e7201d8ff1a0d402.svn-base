@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+    <com.example.iossegment.SegmentView
+        android:id="@+id/segment_view"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+
+    </com.example.iossegment.SegmentView>
+    <com.example.iossegment.SegmentViewThree
+        android:id="@+id/segment_view_three"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+    </com.example.iossegment.SegmentViewThree>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFF">
+        <com.example.iossearch.SearchEditText
+            android:id="@+id/m_search_one"
+            style="@style/editTextStyle"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#DCDCDE">
+        <com.example.iossearch.SearchEditText
+            android:id="@+id/m_search_two"
+            style="@style/editTextStylebai"
+            android:layout_below="@+id/activity_main_input_edittext"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <com.example.switchbutton.UISwitchButton
+            xmlns:switch="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            switch:bmHeight="3000dp"
+            switch:bmWidth="70dp" />
+
+        <com.example.switchbutton.UISwitchButton
+            xmlns:switch="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            switch:bmHeight="3000dp"
+            switch:bmWidth="70dp" />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/D:/Company/AndroidStudio%20Project/IosSegment/app/src/main/res/layout/activity_main.xml -->
